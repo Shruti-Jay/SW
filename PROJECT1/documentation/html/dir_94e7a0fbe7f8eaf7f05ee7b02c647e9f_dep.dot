@@ -1,0 +1,23 @@
+digraph "/home/kakureki/GitHub/repo-Team3/Project1/src/source" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_b0856f6b0d80ccb263b2f415c91f9e17 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_b0856f6b0d80ccb263b2f415c91f9e17.html"];
+  subgraph clusterdir_94e7a0fbe7f8eaf7f05ee7b02c647e9f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_94e7a0fbe7f8eaf7f05ee7b02c647e9f.html"];
+    dir_94e7a0fbe7f8eaf7f05ee7b02c647e9f [shape=plaintext label="source"];
+  dir_059c241250245b61ca7183309f4e1d8a [shape=box label="Election" fillcolor="white" style="filled" URL="dir_059c241250245b61ca7183309f4e1d8a.html"];
+  dir_30d5691a893af450c07143b4b54e774b [shape=box label="ElectionResults" fillcolor="white" style="filled" URL="dir_30d5691a893af450c07143b4b54e774b.html"];
+  dir_0bcc8a8cc141b262edbcd13fcdf2ccdd [shape=box label="Input" fillcolor="white" style="filled" URL="dir_0bcc8a8cc141b262edbcd13fcdf2ccdd.html"];
+  dir_e4ecf43096a90bb4bf8d4c194ed5a4d4 [shape=box label="Output" fillcolor="white" style="filled" URL="dir_e4ecf43096a90bb4bf8d4c194ed5a4d4.html"];
+  dir_4169f7e28d51bfe600b4a38b7c7c2dc7 [shape=box label="PartyList" fillcolor="white" style="filled" URL="dir_4169f7e28d51bfe600b4a38b7c7c2dc7.html"];
+  }
+  }
+  dir_e4ecf43096a90bb4bf8d4c194ed5a4d4->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="3", labeldistance=1.5 headhref="dir_000011_000001.html"];
+  dir_4169f7e28d51bfe600b4a38b7c7c2dc7->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="3", labeldistance=1.5 headhref="dir_000012_000001.html"];
+  dir_059c241250245b61ca7183309f4e1d8a->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="4", labeldistance=1.5 headhref="dir_000008_000001.html"];
+  dir_30d5691a893af450c07143b4b54e774b->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="1", labeldistance=1.5 headhref="dir_000009_000001.html"];
+  dir_0bcc8a8cc141b262edbcd13fcdf2ccdd->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000001.html"];
+}

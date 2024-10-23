@@ -1,0 +1,11 @@
+digraph "/home/kakureki/GitHub/repo-Team3/Project1/src/source/ElectionResults" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_94e7a0fbe7f8eaf7f05ee7b02c647e9f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="source" fontname="Helvetica", fontsize="10", URL="dir_94e7a0fbe7f8eaf7f05ee7b02c647e9f.html"]
+  dir_30d5691a893af450c07143b4b54e774b [shape=box, label="ElectionResults", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_30d5691a893af450c07143b4b54e774b.html"];
+  }
+  dir_b0856f6b0d80ccb263b2f415c91f9e17 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_b0856f6b0d80ccb263b2f415c91f9e17.html"];
+  dir_30d5691a893af450c07143b4b54e774b->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="1", labeldistance=1.5 headhref="dir_000009_000001.html"];
+}

@@ -1,0 +1,22 @@
+digraph "/home/kakureki/GitHub/repo-Team3/Project1/src/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  subgraph clusterdir_b0856f6b0d80ccb263b2f415c91f9e17 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b0856f6b0d80ccb263b2f415c91f9e17.html"];
+    dir_b0856f6b0d80ccb263b2f415c91f9e17 [shape=plaintext label="include"];
+  dir_730b155a9577ad09db70348a26e9cd72 [shape=box label="Election" fillcolor="white" style="filled" URL="dir_730b155a9577ad09db70348a26e9cd72.html"];
+  dir_133b8925141d21ea1de050c24f5fa4bb [shape=box label="ElectionResults" fillcolor="white" style="filled" URL="dir_133b8925141d21ea1de050c24f5fa4bb.html"];
+  dir_0366569a671ef6f7f91eb943fc930694 [shape=box label="Input" fillcolor="white" style="filled" URL="dir_0366569a671ef6f7f91eb943fc930694.html"];
+  dir_1b6ae271754b24dfc1bf4ba1aafc2914 [shape=box label="Output" fillcolor="white" style="filled" URL="dir_1b6ae271754b24dfc1bf4ba1aafc2914.html"];
+  dir_39f4b6ad06c678332be3fb86ded03b06 [shape=box label="PartyList" fillcolor="white" style="filled" URL="dir_39f4b6ad06c678332be3fb86ded03b06.html"];
+  }
+  }
+  dir_730b155a9577ad09db70348a26e9cd72->dir_133b8925141d21ea1de050c24f5fa4bb [headlabel="2", labeldistance=1.5 headhref="dir_000002_000003.html"];
+  dir_730b155a9577ad09db70348a26e9cd72->dir_39f4b6ad06c678332be3fb86ded03b06 [headlabel="1", labeldistance=1.5 headhref="dir_000002_000006.html"];
+  dir_39f4b6ad06c678332be3fb86ded03b06->dir_133b8925141d21ea1de050c24f5fa4bb [headlabel="3", labeldistance=1.5 headhref="dir_000006_000003.html"];
+  dir_1b6ae271754b24dfc1bf4ba1aafc2914->dir_133b8925141d21ea1de050c24f5fa4bb [headlabel="2", labeldistance=1.5 headhref="dir_000005_000003.html"];
+  dir_133b8925141d21ea1de050c24f5fa4bb->dir_39f4b6ad06c678332be3fb86ded03b06 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000006.html"];
+}
