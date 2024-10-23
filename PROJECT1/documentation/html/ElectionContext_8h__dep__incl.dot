@@ -1,0 +1,11 @@
+digraph "/home/kakureki/GitHub/repo-Team3/Project1/src/include/Election/ElectionContext.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/kakureki/GitHub\l/repo-Team3/Project1\l/src/include/Election\l/ElectionContext.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The context for the election."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/home/kakureki/GitHub\l/repo-Team3/Project1\l/src/source/Election/Election\lContext.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ElectionContext_8cpp.html",tooltip="The context for the election."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/kakureki/GitHub\l/repo-Team3/Project1\l/src/source/Main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Main_8cpp.html",tooltip="The entry point for the voting system."];
+}
